@@ -3,7 +3,7 @@ const { verifyToken } = require("../middleware/auth.middleware.js");
 let router = require("express").Router();
 
 // product Routes for CRUD operations on products
-router.get("/products/getAll", product.findAll);
-router.get("/products/getOne/:id", product.findOne);
+router.get("/products/", product.findAll);
+router.get("/products/:id", product.findOne);
 
 module.exports = router;

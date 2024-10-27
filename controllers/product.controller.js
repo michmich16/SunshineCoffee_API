@@ -11,6 +11,7 @@ exports.create = (req, res) => {
     description: req.body.description,
     published: req.body.published,
     stock: req.body.stock,
+    roast: req.body.roast,
   };
 
   // Insert product into DB and return data to user, excluding user ID
@@ -38,6 +39,7 @@ exports.findAll = (req, res) => {
       "published",
       "id",
       "stock",
+      "roast",
     ],
   })
     .then((data) => {
@@ -66,6 +68,7 @@ exports.findOne = (req, res) => {
       "published",
       "id",
       "stock",
+      "roast",
     ],
   })
     .then((data) => {

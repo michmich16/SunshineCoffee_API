@@ -28,6 +28,10 @@ module.exports = (sequalize, Sequelize) => {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      roast: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
       published: {
         type: Sequelize.BOOLEAN,
         defaultValue: true,
