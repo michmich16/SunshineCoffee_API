@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": "password1234",
+    "password": "Attention2544!",
     "database": "sunshine",
-    "host": "127.0.0.1",
+    "host": "127.0.0.1:3306",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "password1234",
+    "password": "Attention2544!",
     "database": "sunshine",
-    "host": "127.0.0.1",
+    "host": "127.0.0.1:3306",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "password1234",
+    "password": "Attention2544!",
     "database": "sunshine",
-    "host": "127.0.0.1",
+    "host": "127.0.0.1:3306",
     "dialect": "mysql"
   }
 }
